@@ -1,0 +1,15 @@
+h3 {
+    font-size: 25px !important;
+}
+
+canvas {
+    animation-name: colour_switching;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin-top: 125px;
+}
+
+@keyframes colour_switching {
+    from {box-shadow: 1px 1px 38px #097ce8;}
+    to {box-shadow: 1px 1px 38px #1cd512;}
+}
